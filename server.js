@@ -71,10 +71,10 @@ var channel = new function () {
   // they can hang around for at most 30 seconds.
   setInterval(function () {
     var now = new Date();
-    while (callbacks.length > 0 && now - callbacks[0].timestamp > 45*1000) {
+    while (callbacks.length > 0 && now - callbacks[0].timestamp > 8000) {
       callbacks.shift().callback([]);
     }
-  }, 10000);
+  }, 7000);
 };
 
 var sessions = {};
