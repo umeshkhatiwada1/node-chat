@@ -207,4 +207,3 @@ fu.get("/send", function (req, res) {
   channel.appendMessage(session.nick, "msg", text);
   res.simpleJSON(200, { rss: mem.rss });
 });
-
