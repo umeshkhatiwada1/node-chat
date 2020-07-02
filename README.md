@@ -3,7 +3,7 @@
 ## Setup Instructions
 - clone the repo `git clone https://github.com/hereshem/Node-Chat` or download zip
 - run `node server.js`
-- goto browser and type `http://localhost:8000`
+- goto browser and type `http://localhost:3000`
 
 
 ## Informations
